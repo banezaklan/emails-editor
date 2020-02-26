@@ -1,8 +1,10 @@
-##Emails Editor Component
+Emails Editor Component
+===
 
 A simple demo of email list editor component.
 
-#####How to Use
+How to Use
+--
 Just include `email-editor.js` into your page as well as it's styles file `emails-editor.css`
 
 Then, add following html and js code to your page:
@@ -43,3 +45,16 @@ To get current list of addresses:
 ```javascript
 const thsList = editor.getEmails();
 ```
+
+Demo
+---
+https://banezaklan.github.io/emails-editor-demo/
+
+Development
+---
+```sh
+npm install
+npm start
+```
+
+
