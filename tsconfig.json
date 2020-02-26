@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {                    
+		"target": "es2016",
+		"module": "system",
+		"outDir": "bin",
+        "outFile": "bin/emails-editor.js",
+		"removeComments": true
+	},
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}

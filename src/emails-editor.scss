@@ -1,0 +1,112 @@
+$primary_font: Open Sans, serif;
+$primary_font_size: 14px;
+$primary_font_color: #050038;
+
+$primary_button_color: #4262FF;
+$primary_button_font: Open Sans, serif;
+$primary_button_label_color: #FFFFFF;
+
+.emails-editor-container {
+    background: #FFFFFF;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    height: 300px;
+    min-width: 350px;
+    max-width: 540px;
+    margin: auto;
+
+    .header {
+        margin-top: 24px;
+        background-color: #F8F8F7;
+        padding: 0 50px 0 50px;
+        height: 204px;
+        .header-title {
+            padding-top: 24px;
+            font-family: $primary_font;
+            font-size: 20px;
+            line-height: 27px;
+        }
+    }
+
+    .editor-wrapper {
+        width: 100%;
+        max-width: 440px;
+        height: 90px;
+        margin-top: 24px;
+        color: $primary_font_color;
+        background: #FFFFFF;
+        border: 1px solid #C3C2CF;
+        box-sizing: border-box;
+        border-radius: 4px;
+        input:focus {
+            outline: none;
+        }
+        .email-input-field {
+            border: none;
+            font-family: $primary_font;
+            font-size: $primary_font_size;
+            padding-top: 7px;
+            padding-left: 6px;
+            color: $primary_font_color;
+        }
+        overflow: auto;
+    }
+
+    .chip {
+        display: inline-block;
+        margin-left: 7px;
+        margin-top: 7px;
+        padding-left: 10px;
+        height: 24px;
+        font-family: $primary_font;
+        font-style: normal;
+        font-weight: normal;
+        font-size: $primary_font_size;
+        color: $primary_font_color;
+        line-height: 24px;
+        border-radius: 100px;
+        background-color: rgba(102, 153, 255, 0.2);
+        .bad-email {
+            border-bottom: 1.5px solid lightcoral;
+        }
+    }
+
+    .closebtn {
+        padding: 0 8px;
+        color: #050038;
+        font-weight: bold;
+        float: right;
+        font-size: 19px;
+        cursor: pointer;
+    }
+    .actions {
+        padding-top: 24px;
+        padding-left: 50px;
+        .button {
+            background-color: $primary_button_color;
+            border: none;
+            color: $primary_button_label_color;
+            padding: 8px 16px 8px 16px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-family: $primary_font;
+            font-size: 14px;
+            //margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 6px;
+            height: 40px;
+        }
+        button:nth-child(2) {
+            margin-left: 10px;
+        }
+        button:focus {
+            outline: none;
+        }
+        button:active:focus {
+            outline: none;
+        }
+
+    }
+
+}
